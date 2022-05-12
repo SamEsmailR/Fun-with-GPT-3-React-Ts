@@ -7,6 +7,6 @@ export const MainContainer = styled.main`
         margin-left: auto;
         margin-right: auto;
         margin-top: 24px;
-        margin-bottom: 100px;
+        margin-bottom: 6.25rem;
     }
 `;

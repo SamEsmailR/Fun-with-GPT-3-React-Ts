@@ -2,37 +2,37 @@ import styled from 'styled-components';
 
 export const FormContainer = styled.form`
     {
+    margin-bottom: 7.5rem;
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     }
 .prompt {
-        margin-left: 12px;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
         -webkit-user-select: none;
         -moz-user-select: none;
         -ms-user-select: none;
         -o-user-select: none;
         user-select: none;
     }
-#text {
-    width: 500px;
-    height: 160px;
-    overflow: hidden;
+#prompt-text {
+    width: 31.8rem;
+    height: 10rem;
+    // overflow: hidden;
     background-color: #FFF;
     color: #222;
     font-family: Courier, monospace;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 1.5rem;
     resize: none;
-    line-height: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 45px;
-    padding-bottom: 34px;
+    line-height: 2.4rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 2.7rem;
+    padding-bottom: 2rem;
     background-image: url(https://static.tumblr.com/maopbtg/E9Bmgtoht/lines.png), url(https://static.tumblr.com/maopbtg/nBUmgtogx/paper.png);
     background-repeat: repeat-y, repeat;
     -webkit-border-radius: 12px;
-    border-radius: 12px;
+    border-radius: 0.8rem;
     -webkit-box-shadow: 0px 2px 14px #000;
     box-shadow: 0px 2px 14px #000;
     border-top: 1px solid #FFF;
@@ -44,23 +44,23 @@ export const FormContainer = styled.form`
     background-color: transparent;
     border-bottom: 3px solid #FFF;
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: Courier, monospace;
-    height: 28px;
+    height: 1.75rem;
     font-weight: bold;
-    width: 220px;
+    width: 13.75rem;
 }
 
 #button-submit {
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 1.2rem;
     float: right;
-    height: 40px;
-    padding-left: 24px;
-    padding-right: 24px;
+    height: 2.4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #FFF;
     text-shadow: 0px -1px 0px #000000;
     -webkit-border-radius: 8px;
