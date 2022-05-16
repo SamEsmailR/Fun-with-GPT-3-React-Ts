@@ -6,7 +6,7 @@ import { useState } from "react";
 
 function FetchResponses(request: string): Promise<MyResponse> {
   const config = {
-    SECRET_API_KEY: "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",
+    SECRET_API_KEY: "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",
   };
 
   const KEY = config.SECRET_API_KEY;
