@@ -2,9 +2,19 @@
 
 GPT-3 is a powerful AI model created by OpenAI. It can process plain text prompts and produce outputs that are hard to distinguish from human writing.
 
-## The Challenge
+## Websites, that I used to learn about React and TypeScript, OpenAI.
 
-Write an app that sends plain text prompts to the OpenAI API and displays the results in a list.
+[React Components and Props](https://reactjs.org/docs/components-and-props.html)
+
+[HTTP requests using Fetch API and Promises](https://medium.com/@armando_amador/how-to-make-http-requests-using-fetch-api-and-promises-b0ca7370a444)
+
+[Getting started with React and TypeScript](https://www.educative.io/blog/react-and-typescript)
+
+[Styled-components Documentation](https://styled-components.com/docs)
+
+[React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react#reacttypescript-cheatsheets)
+
+[OpenAI Quickstart tutorial](https://beta.openai.com/docs/quickstart)
 
 # Getting Started with Create React App
 
