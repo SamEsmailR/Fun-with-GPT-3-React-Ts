@@ -1,14 +1,16 @@
-import React from 'react';
-import ResponsePromptListItem from './ResponsePromptListItem'; 
+import { MyResponse } from "../types/MyResponse";
+import ResponsePromptListItem from "./ResponsePromptListItem";
 
-function ResponsePromptList(){
-    return (
-        <article>
-            <ResponsePromptListItem/>
-            <ResponsePromptListItem/>
-            <ResponsePromptListItem/>
-        </article>
-    );
+type ResponsePromptListProps = {
+  responses: MyResponse[];
+};
+
+function ResponsePromptList(props: ResponsePromptListProps) {
+  const promptList = props.responses.map(function (element: MyResponse) {
+    return <ResponsePromptListItem key={element.id} item={element} />;
+  });
+
+  return <article>{promptList}</article>;
 }
 
 export default ResponsePromptList;

@@ -1,16 +1,11 @@
-import React from 'react';
-import { HeaderContainer } from './Header.styles';
+import { HeaderContainer } from "./Header.styles";
 
-function Header(){
-    return (
-        <HeaderContainer>
-            <h1 className='header'>Fun with GPT-3</h1>
-        </HeaderContainer>
-    );
+function Header() {
+  return (
+    <HeaderContainer>
+      <h1 className="header">Fun with GPT-3</h1>
+    </HeaderContainer>
+  );
 }
 
 export default Header;
-
-  
-
-  

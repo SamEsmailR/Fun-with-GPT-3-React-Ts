@@ -1,16 +1,20 @@
-import React from 'react';
+
+import { MyResponse } from '../types/MyResponse';
 import { PromptContainer } from './ResponsePromptListItem.styles';
 
-function ResponsePromptListItem(){
+type ResponsePromptListItemProps = {
+    item: MyResponse;
+}
+function ResponsePromptListItem(props: ResponsePromptListItemProps){
     return (
         <PromptContainer>
             <div className='prompt-block'>
                 <h3>Prompt:</h3>
-                <p></p>
+                <p>{props.item.q}</p>
             </div>
             <div className='response-block'>
                 <h3>Response:</h3>
-                <p></p>
+                <p>{props.item.a}</p>
             </div>
         </PromptContainer>
     );
