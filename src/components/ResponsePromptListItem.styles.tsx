@@ -6,16 +6,14 @@ export const PromptContainer = styled.section`
     height: 10rem;
     overflow-x: hidden;
     overflow-y: auto;
+    font-size: 1.25rem;
     background-color: #fff;
     color: #222;
     font-family: Courier, monospace;
     font-weight: normal;
     resize: none;
     line-height: 2.4rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
-    padding-top: 0.7rem;
-    padding-bottom: 2rem;
+    padding: 0.65rem 2rem 2rem 6rem;
     margin-bottom: 2rem;
     background-image: url(https://static.tumblr.com/maopbtg/E9Bmgtoht/lines.png),
       url(https://static.tumblr.com/maopbtg/nBUmgtogx/paper.png);
@@ -30,5 +28,22 @@ export const PromptContainer = styled.section`
   }
   li {
     list-style-type: none;
+  }
+
+  @media only screen and (max-width: 800px) {
+     {
+      width: 20rem;
+      font-size: 1.1rem;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+     {
+      width: 15rem;
+    }
+    #prompt-text {
+      width: 15rem;
+      font-size: 1rem;
+    }
   }
 `;

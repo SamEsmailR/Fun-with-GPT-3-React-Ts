@@ -5,7 +5,7 @@ export const FooterContainer = styled.footer`
     display: flex;
     justify-content: space-between;
     color: #fff;
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding-bottom: 2rem;
   }
   a {

@@ -1,9 +1,23 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
+  .header {
+    color: #fff;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  @media only screen and (max-width: 800px) {
     .header {
-        color: #FFF;
-        font-size: 3rem;
-        padding-bottom: 2rem;
+      font-size: 2.7rem;
+      padding-bottom: 1.7rem;
     }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .header {
+      font-size: 2.3rem;
+      padding-bottom: 1.5rem;
+    }
+  }
 `;
