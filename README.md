@@ -1,6 +1,8 @@
 # Fun with GPT-3
 
-GPT-3 is a powerful AI model created by OpenAI. It can process plain text prompts and produce outputs that are hard to distinguish from human writing.
+An application that uses the GPT-3 AI model created by OpenAI { https://openai.com/api/ }. The model can process plain text prompts and produce outputs not dissimilar to human writing.
+
+In this application, users can type in a prompt (e.g. Write a poem about Dinosaurs, I think cats are cute, etc.) in a form input field. Once a prompt is submitted via the 'Submit' button on the graphical interface, the GPT-3 will be reached via the text-curie-001 API and will respond with an interpreted output.
 
 ## Websites, that I used to learn about React and TypeScript, OpenAI.
 
