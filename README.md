@@ -4,6 +4,18 @@ An application that uses the GPT-3 AI model created by OpenAI { https://openai.c
 
 In this application, users can type in a prompt (e.g. Write a poem about Dinosaurs, I think cats are cute, etc.) in a form input field. Once a prompt is submitted via the 'Submit' button on the graphical interface, the GPT-3 will be reached via the text-curie-001 API and will respond with an interpreted output.
 
+## Usage instructions
+
+1) Navigate to the deployed URL at: 
+
+2) Click on the form input field, colored white and immediately after the Page's main title, 'Fun with A.I.'
+
+3) Type in a prompt.  E.g. "Why are cat's so funny?" 
+
+4) Once a prompt has been typed out, click the large blue 'Submit' button
+
+5) Enjoy a response returned by the GPT-3 AI model in the feed at the bottom of the page!
+
 ## Websites, that I used to learn about React and TypeScript, OpenAI.
 
 [React Components and Props](https://reactjs.org/docs/components-and-props.html)
