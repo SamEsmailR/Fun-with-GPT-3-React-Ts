@@ -6,7 +6,7 @@ import { useState } from "react";
 
 function FetchResponses(request: string): Promise<MyResponse> {
   const config = {
-    SECRET_API_KEY: "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",
+    SECRET_API_KEY: "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",
   };
 
   const KEY = config.SECRET_API_KEY;
@@ -24,6 +24,8 @@ function FetchResponses(request: string): Promise<MyResponse> {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "Content-Type, Authorization",
       Authorization: `Bearer ${KEY}`,
       prompt: request,
     },
