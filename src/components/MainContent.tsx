@@ -5,11 +5,11 @@ import { MainContainer } from "./MainContent.styles";
 import { useState } from "react";
 
 function FetchResponses(request: string): Promise<MyResponse> {
-  const config = {
-    SECRET_API_KEY: "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",
-  };
+  // const config = {
+  //   SECRET_API_KEY: "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",
+  // };
 
-  const KEY = config.SECRET_API_KEY;
+  const KEY = process.env.SECRET_API_KEY;
 
   const data = {
     prompt: request,
