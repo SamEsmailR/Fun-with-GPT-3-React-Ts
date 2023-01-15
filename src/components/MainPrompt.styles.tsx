@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FormContainer = styled.form`
    {
     margin-bottom: 7.5rem;
-    color: #fff;
+    color: #3A4F7A;
     font-size: 1.25rem;
   }
   .prompt {
@@ -19,7 +19,7 @@ export const FormContainer = styled.form`
     height: 10rem;
     overflow-x: hidden;
     background-color: #fff;
-    color: #222;
+    color: #3A4F7A;
     font-family: Courier, monospace;
     font-weight: normal;
     font-size: 1.25rem;
@@ -46,15 +46,14 @@ export const FormContainer = styled.form`
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 1.25rem;
-    color: #fff;
-    text-shadow: 0px -1px 0px #000000;
+    color: #F56EB3;
     -webkit-border-radius: 8px;
     border-radius: 8px;
     border-top: 1px solid #fff;
     -webkit-box-shadow: 0px 2px 14px #000;
     box-shadow: 0px 2px 14px #000;
-    background-color: #62add6;
-    background-image: url(https://static.tumblr.com/maopbtg/ZHLmgtok7/button.png);
+    background-color: #fff;
+    background-color: #3A4F7A;
     background-repeat: repeat-x;
   }
 

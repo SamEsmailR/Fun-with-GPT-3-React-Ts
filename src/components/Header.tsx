@@ -3,7 +3,7 @@ import { HeaderContainer } from "./Header.styles";
 function Header() {
   return (
     <HeaderContainer>
-      <h1 className="header">Fun with GPT-3</h1>
+      <h1 className="header">Poetigy: The Poetic Prodigy within AI</h1>
     </HeaderContainer>
   );
 }

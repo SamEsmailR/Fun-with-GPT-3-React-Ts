@@ -6,7 +6,7 @@ import { useState } from "react";
 
 function FetchResponses(request: string): Promise<MyResponse> {
   const config = {
-    SECRET_API_KEY: "Put your API key here",
+    SECRET_API_KEY: "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",
   };
 
   const KEY = config.SECRET_API_KEY;
@@ -14,13 +14,13 @@ function FetchResponses(request: string): Promise<MyResponse> {
   const data = {
     prompt: request,
     temperature: 0.5,
-    max_tokens: 64,
+    max_tokens: 100,
     top_p: 1.0,
     frequency_penalty: 0.0,
     presence_penalty: 0.0,
   };
 
-  return fetch("https://api.openai.com/v1/engines/text-curie-001/completions", {
+  return fetch("https://api.openai.com/v1/engines/text-davinci-002/completions", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
