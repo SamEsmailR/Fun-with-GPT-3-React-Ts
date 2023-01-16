@@ -33,8 +33,6 @@ function MainPrompt(props: MainPromptProps) {
       <Adsense
   client="ca-pub-4528275903386554"
   slot="7420815125"
-  style={{ display: 'block' }}
-  layout="in-article"
   format="auto"
 />
     </FormContainer>
