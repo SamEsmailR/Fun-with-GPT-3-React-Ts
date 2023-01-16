@@ -1,4 +1,5 @@
 import { FormContainer } from "./MainPrompt.styles";
+import {Adsense} from '@ctrl/react-adsense';
 
 type MainPromptProps = {
   callback: (prompt: string) => void;
@@ -25,9 +26,17 @@ function MainPrompt(props: MainPromptProps) {
         rows={4}
       ></textarea>
       <br />
+      
       <button id="button-submit" type="submit">
         Submit
       </button>
+      <Adsense
+  client="ca-pub-4528275903386554"
+  slot="7420815125"
+  style={{ display: 'block' }}
+  layout="in-article"
+  format="auto"
+/>
     </FormContainer>
   );
 }

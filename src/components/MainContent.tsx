@@ -4,13 +4,18 @@ import ResponseContent from "./ResponseContent";
 import { MainContainer } from "./MainContent.styles";
 import { useState } from "react";
 
+
+
+
 function FetchResponses(request: string): Promise<MyResponse> {
-  // const config = {
-  //   SECRET_API_KEY: "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",
-  // };
+  const config = {
+    SECRET_API_KEY: process.env.REACT_APP_API_KEY
+    //SECRET_API_KEY: " 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",
+  };
 
-  const KEY = process.env.SECRET_API_KEY;
-
+  
+  const KEY = config.SECRET_API_KEY 
+//const configValue: string = (process.env.REACT_APP_SOME_CONFIGURATION as string);
   const data = {
     prompt: request,
     temperature: 0.5,
@@ -32,6 +37,7 @@ function FetchResponses(request: string): Promise<MyResponse> {
     body: JSON.stringify(data),
   })
     .then((response) => {
+      console.log(KEY)
       return response.json();
     })
     .then((data) => {
